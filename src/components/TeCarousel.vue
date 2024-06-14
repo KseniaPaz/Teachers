@@ -8,10 +8,9 @@
             
                 />            
             </div>
-    
             
         </div>
-        <div>
+        <div class="button__box">
                 <img @click="prevSlide" src="../assets/img/Arrow - Left Circle.svg" alt="left">
                 <img @click="nextSlide" src="../assets/img/Arrow - Right Circle.svg" alt="right">
         </div>
@@ -74,5 +73,12 @@
         gap: 20px;
         transition: all ease .5s;
     }
+
+    .button__box {
+        display: flex;
+        margin-top: 60px;
+        gap: 10px;
+        justify-content: flex-end;
+      }
 
 </style>

@@ -3,20 +3,14 @@
         <section class="teachers center">
             <h3 class="teachers__heading">Профессиональные тренеры</h3>
 
-
             <TeCarousel
             :carousel_data="listUsers"
             />
 
-
-
-            <!-- <div class="teachers__box">
-                <TeUser v-for="user in listUsers" :key="user.id" v-bind:userData="user" @sendDataToParent="showTUserIdInConsole" />
-            </div> -->
-            <div class="button__box">
+            <!-- <div class="button__box">
                 <img class="button__arrow" src="../assets/img/Arrow - Left Circle.svg" alt="Arrow">
                 <img class="button__arrow" src="../assets/img/Arrow - Right Circle.svg" alt="Arrow">
-            </div>
+            </div> -->
         </section>
         
 
@@ -24,7 +18,6 @@
 </template>
 
 <script>
-// import TeUser from './TeUser.vue'
 import TeCarousel from './TeCarousel.vue'
 
 
@@ -190,11 +183,11 @@ summary::-webkit-details-marker {
     }
   }
 
-  .button__box {
+   .button__box {
     display: flex;
     margin-top: 60px;
     gap: 10px;
     justify-content: flex-end;
-  }
+  } 
 
 </style>

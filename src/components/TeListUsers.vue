@@ -2,6 +2,9 @@
     <div>
         <section class="teachers center">
             <h3 class="teachers__heading">Профессиональные тренеры</h3>
+
+            
+
             <div class="teachers__box">
                 <TeUser v-for="user in listUsers" :key="user.id" v-bind:userData="user" @sendDataToParent="showTUserIdInConsole" />
             </div>

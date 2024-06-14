@@ -102,48 +102,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-* {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-
-body {
-    font-family: "Jost", sans-serif;
-    overflow-x: hidden;
-}
-
-
-summary {
-    display: block;
-}
-
-summary::-webkit-details-marker {
-    display: none;
-}
-
-.center {
-    padding-left: calc(50% - 610px);
-    padding-right: calc(50% - 610px);
-}
 
 .teachers {
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 180px;
-
-    &__heading {
-        font-size: 50px;
-        font-weight: 600;
-        line-height: 80px;
-        text-align: left;
-        color: #141024;
-    }
 
     &__box {
         padding-top: 60px;
@@ -189,5 +152,14 @@ summary::-webkit-details-marker {
     gap: 10px;
     justify-content: flex-end;
   } 
+
+  .teachers__heading {
+    margin-bottom: 16px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: left;
+    color: #141024;
+  }
 
 </style>

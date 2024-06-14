@@ -1,16 +1,11 @@
 <template>
     <div>
-        <section class="teachers center">
+        <section class="teachers center" id='section_teachers'>
             <h3 class="teachers__heading">Профессиональные тренеры</h3>
 
             <TeCarousel
             :carousel_data="listUsers"
             />
-
-            <!-- <div class="button__box">
-                <img class="button__arrow" src="../assets/img/Arrow - Left Circle.svg" alt="Arrow">
-                <img class="button__arrow" src="../assets/img/Arrow - Right Circle.svg" alt="Arrow">
-            </div> -->
         </section>
         
 

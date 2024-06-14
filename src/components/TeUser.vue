@@ -38,11 +38,17 @@
                 </details>
 
                 <details class="popup__details">
-                    <summary class="popup__summary">Опыт работы</summary>   
+                    <summary class="popup__summary">Опыт работы</summary>
+                    <div class="popup__details__box-work">
+                      <p class="popup__text__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi veniam, dolorum enim pariatur ipsum voluptates laudantium quae, fugit neque animi ipsa explicabo obcaecati repudiandae mollitia consectetur sequi suscipit. Ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nihil. Sed provident ab vero enim non odit voluptatem veritatis quisquam? Autem velit quia laudantium quibusdam corporis facilis! Doloremque, tenetur!</p>
+                  </div>   
                 </details>
 
                 <details class="popup__details">
-                    <summary class="popup__summary">Награды</summary>    
+                    <summary class="popup__summary">Награды</summary>
+                    <div class="popup__details__box-prize">
+                      <p class="popup__text__lorem">Награды: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi veniam, dolorum enim pariatur ipsum voluptates laudantium quae, fugit neque animi ipsa explicabo obcaecati repudiandae mollitia consectetur sequi suscipit. Ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nihil. Sed provident ab vero enim non odit voluptatem veritatis quisquam? Autem velit quia laudantium quibusdam corporis facilis! Doloremque, tenetur!</p>
+                  </div>      
                 </details>
 
             </div>
@@ -237,6 +243,32 @@
     line-height: 32px;
     text-align: left;
     color: #141024;
+  }
+
+  .popup__details__box-work {
+    border-top: 1px solid #777779e5;
+    background-color: #FFFFFF;
+    width: 776px;
+    padding: 6px;
+    position: absolute;
+    left: -325px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .popup__details__box-prize {
+    border-top: 1px solid #777779e5;
+    background-color: #FFFFFF;
+    width: 776px;
+    padding: 6px;
+    position: absolute;
+    left: -661px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
   }
 
 

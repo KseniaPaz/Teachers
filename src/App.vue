@@ -30,24 +30,19 @@ export default {
     margin: 0;
     padding: 0;
 }
-
 a {
     text-decoration: none;
 }
-
 body {
     font-family: "Jost", sans-serif;
     overflow-x: hidden;
 }
-
 summary {
     display: block;
 }
-
 summary::-webkit-details-marker {
     display: none;
 }
-
 .center {
     padding-left: calc(50% - 610px);
     padding-right: calc(50% - 610px);

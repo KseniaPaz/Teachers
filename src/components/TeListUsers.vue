@@ -102,20 +102,17 @@ export default {
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 180px;
-
     &__box {
         padding-top: 60px;
         display: grid;
         grid-template-columns: repeat(6, 360px);
         gap: 40px;
     }
-
     &__item {
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
-
     &__name {
       font-size: 24px;
       font-weight: 600;
@@ -123,7 +120,6 @@ export default {
       text-align: left;
       color: #141024;
     }
-
     &__prof {
       font-size: 18px;
       font-weight: 400;
@@ -131,7 +127,6 @@ export default {
       text-align: left;
       color: #141024B2;
     }
-
     &__next {
       font-size: 18px;
       font-weight: 400;
@@ -140,14 +135,12 @@ export default {
       color: #D52027;
     }
   }
-
    .button__box {
     display: flex;
     margin-top: 60px;
     gap: 10px;
     justify-content: flex-end;
   } 
-
   .teachers__heading {
     margin-bottom: 16px;
     font-size: 50px;
@@ -156,5 +149,4 @@ export default {
     text-align: left;
     color: #141024;
   }
-
 </style>

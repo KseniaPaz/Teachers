@@ -33,7 +33,6 @@ export default {
 
 .header {
     background-color: #141024;
-
     &__head {
         display: flex;
         justify-content: space-between;
@@ -41,7 +40,6 @@ export default {
         padding-top: 30px;
     }
 }
-
 .logo{
     font-size: 30px;
     font-weight: 700;
@@ -49,7 +47,6 @@ export default {
     text-align: left;
     color: #FFFFFF;
 }
-
 .menu {
     width: 342px;
     display: flex;
@@ -62,7 +59,6 @@ export default {
         color: #FFFFFF;
     }
 }
-
 .phone-number {
     font-size: 30px;
     font-weight: 600;
@@ -70,12 +66,10 @@ export default {
     text-align: right;
     color: #FFFFFF;
 }
-
 .top {
     margin-top: 84px;
     display: flex;
     justify-content: center;
-
     &__left {
         padding-top: 174px;
         padding-left: 120px;
@@ -116,7 +110,6 @@ export default {
             background: #b11318;
         }
     }
-
     &__right {
         max-width: 783px;
         max-height: 918px;

@@ -35,13 +35,10 @@ a {
     text-decoration: none;
 }
 
-
-
 body {
     font-family: "Jost", sans-serif;
     overflow-x: hidden;
 }
-
 
 summary {
     display: block;

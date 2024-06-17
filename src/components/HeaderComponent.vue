@@ -71,7 +71,6 @@ export default {
     color: #FFFFFF;
 }
 
-
 .top {
     margin-top: 84px;
     display: flex;
@@ -92,7 +91,6 @@ export default {
             text-align: left;
             color: #FFFFFF;
         }
-
         &__text {
             font-size: 20px;
             font-weight: 400;
@@ -100,7 +98,6 @@ export default {
             text-align: left;
             color: #FFFFFF;
         }
-
         &__button {
             display: flex;
             align-items: center;
@@ -115,7 +112,6 @@ export default {
             line-height: 18px;
             color: #FFFFFF;
         }
-
         &__button:hover {
             background: #b11318;
         }
@@ -125,7 +121,6 @@ export default {
         max-width: 783px;
         max-height: 918px;
     }
-
     &__img{
         max-width: 783px;
         max-height: 918px;

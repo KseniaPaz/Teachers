@@ -31,13 +31,11 @@ export default {
     justify-content: center;
     gap: 144px;
     background-color: #D52027;
-
     &__box {
         padding-top: 19px;
         display: flex;
         flex-direction: column;
         gap: 20px;
-
         &_heading {
             width: 400px;
             font-size: 36px;
@@ -46,7 +44,6 @@ export default {
             text-align: left;
             color: #FFFFFF;
         }
-
         &_text {
             font-size: 20px;
             font-weight: 400;
@@ -55,21 +52,17 @@ export default {
             color: #FFFFFF;
         }
     }
-
     &__mask {
         position: absolute;
         top: 11px;
         left: 1px;
     }
-
   }
-
 .forma {
     display: flex;
     flex-direction: column;
     gap: 10px;
     z-index: 10;
-
     &__input{
         padding-left: 20px;
         width: 480px;
@@ -82,7 +75,6 @@ export default {
         text-align: left;
         color: #282944B2;
     }
-
     &__button {
         width: 500px;
         height: 64px;

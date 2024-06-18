@@ -42,7 +42,6 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 60px;
-
     &__heading {
         font-size: 50px;
         font-weight: 600;
@@ -50,13 +49,11 @@ export default {
         text-align: left;
         color: #141024;
     }
-
     &__box {
         display: grid;
         grid-template-columns: repeat(3, 360px);
         gap: 40px;
     }
-
     &__item {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -65,7 +62,6 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-
         &_title {
             font-size: 30px;
             font-weight: 600;
@@ -74,7 +70,6 @@ export default {
             color: #141024;
             margin-bottom: 68px;
         }
-
         &_sum {
             font-size: 50px;
             font-weight: 600;
@@ -83,7 +78,6 @@ export default {
             color: #141024;
             margin-bottom: 25px;
         }
-
         &_text {
             width: 250px;
             height: 60px;
@@ -93,7 +87,6 @@ export default {
             color: #141024;
             margin-bottom: 61px;
         }
-
         &_button {
             display: flex;
             justify-content: center;
@@ -110,19 +103,15 @@ export default {
         }
     }
 }
-
 .price__item:hover {
     background-color: #141024;
 }
-
 .price__item:hover .price__item_title{
     color: #FFFFFF;
 }
-
 .price__item:hover .price__item_text{
     color: #FFFFFF;
 }
-
 .price__item:hover .price__item_sum{
     color: #FFFFFF;
 }
